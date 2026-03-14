@@ -7,7 +7,7 @@
 using namespace std;
 
 const int YEAR = 2026;
-//откртые поля
+
 class WorkerPublic {
 public:
     string name;
@@ -23,7 +23,7 @@ public:
         cout << name << "  " << job << "  " << year << "  " << money << "  staj: " << exp() << endl;
     }
 };
-//закртые поля
+
 class WorkerPrivate {
 private:
     string name;
